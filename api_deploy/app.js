@@ -144,7 +144,7 @@ const tasks = [
 app.use(express.json());
 
 app.get('/public', (req, res) => {
-  res.json({ message: 'This endpoint is public and does not require authentication.' });
+  res.json({ message: 'This endpoint is public & does not require authentication.' });
 });
 
 app.post('/login', (req, res) => {
